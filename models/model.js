@@ -28,26 +28,6 @@ const customersSchema = new mongoose.Schema({
 
 
     
-// _id
-// 5ca4bbcea2dd94ee58162a68
-// username
-// "fmiller"
-// name
-// "Elizabeth Ray"
-// address
-// "9286 Bethany Glens
-// Vasqueztown, CO 22939"
-// birthdate
-// 1977-03-02T02:20:31.000+00:00
-// email
-// "arroyocolton@gmail.com"
-// active
-// true
 
-// accounts
-// Array
-
-// tier_and_details
-// Object
 });
 module.exports = mongoose.model('customers', customersSchema)
